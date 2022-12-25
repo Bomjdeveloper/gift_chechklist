@@ -1,0 +1,18 @@
+{% extends 'base.html' %} 
+{% block content %}
+{%if name %}
+{% for names in name %}
+<div class="gift_card">
+    <div class="left_gift_card">
+        <h3 class="gift_name">{{names.gift_name}}</h3>
+        <p class="person_name">{{names.person_name}}</p>
+    </div>
+    <div class="right_gift_card">
+        
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<p>No gifts to buy</p>
+{% endif %}
+{% endblock %}

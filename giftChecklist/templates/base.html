@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gift checklist</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+<body>
+    <div class="container">
+        <div class="left_side">
+            <div class="wrapper">
+            <a href="/create"><button class="create">Create new gift</button></a>
+            <form method="post" action="/logout">
+                {% csrf_token %}
+                <input type="submit" value="logout" class="ffrefe">
+            </form>
+            </div>
+            <span class="line"></span>
+            
+        </div>
+        <div class="right_side">
+        <h1>Gift checklist</h1>
+        {% block content %}
+            
+        {% endblock %}
+        </div>
+    </div>
+</body>
+</html>
