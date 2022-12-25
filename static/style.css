@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    justify-content: center;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 700; font-family: Inter; color: #fff;}
+/*--------------------*/
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+}
+html {
+    background-color: #031841;
+    font-family: Inter;
+    color: #fff;
+}
+button, .ffrefe {
+    background: none;
+    border: 3px solid #ffffff;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+.create, .ffrefe {
+    padding: 14px 30px 14px 30px;
+    margin-right: 40px;
+}
+button:hover, .ffrefe:hover {
+    background-color: #fff;
+    color: #031841;
+}
+.left_side {
+    margin-top: 117px;
+    display: flex;
+    padding-right: 67px;
+}
+.line {
+    width: 3px;
+    height: 565px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    float: right;
+}
+button {
+    transition: 400ms ease;
+}
+.right_side {
+    margin-top: 47px;
+}
+h1 {
+    font-size: 40px;
+    padding-bottom: 22px;
+}
+.gift_card {
+    background-color: #0026AB;
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.gift_name {
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.left_gift_card {
+    padding: 24px 82px 29px 40px;
+
+}
+.person_name {
+    font-size: 16px;
+    padding-bottom: 44px;
+}
+.checkbox_text {
+    padding-right: 17px;
+}
+
+.check {
+    display: flex;
+}
+.checkbox_ {
+    background-color: none;
+    border: 3px solid #ffffff;
+    border-radius: 16px;
+    float: right;
+}
+.right_gift_card {
+    margin-top: 24px;
+    padding-right: 70px;
+}
+.edit {
+    padding: 14px 55px 14px 55px;
+}
+p {
+    font-size: 24px;
+}
+.ffrefe {
+    background: none;
+    border: 3px solid #ffffff;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 40px;
+}
